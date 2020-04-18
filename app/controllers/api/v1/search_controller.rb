@@ -4,6 +4,7 @@ class Api::V1::SearchController < ApplicationController
         @albums = Album.where("title LIKE ?", "%#{params[:query]}%")
         @artists = Artist.where("name LIKE ?", "%#{params[:query]}%")
     end
-
-
+    def show
+        @category = Category.find(params[:id])
+    end
 end
