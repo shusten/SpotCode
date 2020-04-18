@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: "home#index"
-  
+  get 'home/index'
+  root "home#index"
 
   namespace :api, defaults: { format: :json } do
-      namespace :v1 do
-        resources :dashboard, only: :index
-      end
+    namespace :v1 do
+      resources :dashboard, only: :index
+    end
   end
 end
