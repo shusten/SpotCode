@@ -42,7 +42,9 @@ const ButtonSubscribe = styled(Button)`
       </Columns>
             <Columns className="has-text-centered">
             <Columns.Column>
-              <ButtonSubscribe className='is-success is-outlined is-large has-text-white'>CADASTRAR AGORA</ButtonSubscribe>
+            <a href='users/sign_up'>
+                <ButtonSubscribe className='is-success is-outlined is-large has-text-white'>CADASTRAR AGORA</ButtonSubscribe>
+            </a>
             </Columns.Column>
             </Columns>
           </SectionWrapper>

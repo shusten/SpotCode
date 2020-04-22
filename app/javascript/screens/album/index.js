@@ -1,9 +1,10 @@
 import React, { Fragment, useState } from 'react';
+import NavbarFooter from '../../components/common/navbar_footer';
 
         const AlbumScreen = () => {
             return(
                 <Fragment>
-                    <div>AlbumScreen</div>
+                    <NavbarFooter />
                 </Fragment>
             );
         }
