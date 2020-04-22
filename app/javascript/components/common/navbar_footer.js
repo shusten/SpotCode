@@ -24,13 +24,13 @@ const NavbarFooter = () => {
              <Container>
                  <ColumnsFullWidth className='is-mobile is-vcentered'>
                  <Columns.Column className='has-text-centered'>
-                    <Link to='/discovery' clasName='has-text-white'>
+                    <Link to='/discovery' className='has-text-white'>
                         <FaHome size='25px'/>
                     </Link>
                     </Columns.Column>
 
                     <Columns.Column className='has-text-centered'>
-                    <Link to='/search' clasName='has-text-white'>
+                    <Link to='/search' className='has-text-white'>
                         <FaSearch size='25px'/>
                     </Link>
                     </Columns.Column>
