@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Album from '../album';
+import Album from '../common/album';
 import styled from 'styled-components';
 import { Columns, Heading } from 'react-bulma-components';
 

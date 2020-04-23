@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import App from '../app';
- 
+
+
 document.addEventListener('turbolinks:load', () => {
-  ReactDOM.render( 
+  ReactDOM.render(
     <App/>,
     document.getElementById('root'),
   )
