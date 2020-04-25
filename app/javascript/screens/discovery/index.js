@@ -7,7 +7,9 @@ const DiscoveryScreen = () => {
   return(
     <Fragment>
       <SectionWrapper>
+        
         <Discovery />
+        
       </SectionWrapper>
       <NavbarFooter />
     </Fragment>
