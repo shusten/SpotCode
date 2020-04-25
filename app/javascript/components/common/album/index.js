@@ -2,9 +2,10 @@ import React, {Fragment} from 'react';
 import { Image, Heading } from 'react-bulma-components';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Musics from '../../musics';
 
 const DivVSpaced = styled.div`
-  margin-top: 30px;
+  margin-top: 10px;
 `
 
 const Album = (props) => {
