@@ -10,7 +10,7 @@ import CategoriesService from '../../services/categories';
         const [artists, setArtists] = useState([]);
         const [songs, setSongs] = useState([]);
 
-    async function fetchCategorySearch(id) {
+async function fetchCategorySearch(id) {
     const response = await CategoriesService.show(id);
     setAlbums(response.data['albums']);
     setArtists(response.data['artists']);
