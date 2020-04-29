@@ -5,13 +5,12 @@ import { Columns } from 'react-bulma-components';
 import SearchService from '../../services/search';
 import CategoriesService from '../../services/categories';
 
-const Search  = () => {
     const Search = () => {
         const [albums, setAlbums] = useState([]);
         const [artists, setArtists] = useState([]);
         const [songs, setSongs] = useState([]);
-}
-async function fetchCategorySearch(id) {
+
+    async function fetchCategorySearch(id) {
     const response = await CategoriesService.show(id);
     setAlbums(response.data['albums']);
     setArtists(response.data['artists']);
